@@ -39,3 +39,7 @@ The insights from this project help financial institutions:
 - Apply risk-based pricing  
 - Improve portfolio risk management  
 - Make informed lending decisions
+
+## 👩‍💻 Author
+**Shreya Itkapalle**  
+Aspiring Data Analyst / Data Scientist  
