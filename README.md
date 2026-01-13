@@ -1,45 +1,91 @@
-# Credit Risk Assessment & Customer Default Prediction
+# Credit Risk Assessment & Default Prediction
 
-## Overview
-This project builds an end-to-end credit risk assessment model to predict the probability of customer default. 
-It supports data-driven lending decisions and portfolio risk management for financial institutions.
+## 📌 Overview
+This project builds an end-to-end credit risk assessment model to predict the probability
+of customer default. The solution supports data-driven lending decisions and portfolio
+risk management for financial institutions by identifying risky customers early and
+enabling risk-based strategies.
 
-## Business Objective
-- Identify high-risk customers before credit approval
-- Understand key factors influencing default behavior
-- Segment customers into actionable risk categories (Low, Medium, High)
+---
 
-## Dataset
-The dataset contains customer demographics, financial attributes, and payment history variables.
-- Stored in the `data/` folder as `credit_data.csv`.
+## 🎯 Business Objective
+The key objectives of this project are to:
 
-## Tools & Technologies
-- **Languages:** Python  
+- Identify high-risk customers before credit approval  
+- Understand key factors influencing default behavior  
+- Segment customers into actionable risk categories (Low, Medium, High)  
+- Support informed, data-driven lending decisions  
+
+---
+
+## 📂 Dataset
+The dataset contains customer-level information including:
+
+- Demographic details (age, gender, education, marital status)
+- Financial attributes (credit limits, bill amounts, payment amounts)
+- Repayment history (past payment delays)
+
+The target variable indicates whether a customer defaulted on the next payment cycle.
+
+**Dataset location:**
+credit_data.csv
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Language:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
-- **Environment:** Jupyter Notebook / Google Colab
+- **Environment:** Jupyter Notebook / Google Colab  
 
+---
 
-## Methodology
-1. **Data Understanding** – Review data types, missing values, and distribution of variables.  
-2. **Feature Engineering** – Prepare categorical and numerical features for modeling.  
-3. **Model Building** – Develop logistic regression model to estimate default probability.  
-4. **Model Validation & Threshold Optimization** – Evaluate performance (ROC-AUC, confusion matrix) and tune threshold for business risk.  
-5. **Risk Segmentation** – Categorize customers into Low, Medium, and High-risk groups.  
-6. **Business Insights & Recommendations** – Translate model output into actionable decisions.
+## 🧪 Methodology
 
-## Key Outcomes
-- Developed a logistic regression model with strong predictive performance  
-- Optimized classification threshold to reduce false negatives  
+1. **Data Understanding**
+   - Reviewed data structure, data types, and variable distributions
+   - Checked for missing values and class imbalance
+
+2. **Feature Engineering**
+   - Removed non-informative identifiers
+   - Selected relevant demographic, financial, and repayment behavior features
+
+3. **Model Building**
+   - Developed a Logistic Regression model to estimate default probability
+   - Chosen for interpretability and industry relevance in credit risk modeling
+
+4. **Model Validation & Threshold Optimization**
+   - Evaluated performance using classification metrics and ROC-AUC score
+   - Optimized classification decisions to reduce financial risk exposure
+
+5. **Risk Segmentation**
+   - Segmented customers into Low, Medium, and High-risk categories
+   - Enabled actionable insights for lending strategies
+
+6. **Business Insights & Recommendations**
+   - Translated model output into practical business decisions
+
+---
+
+## 📈 Key Outcomes
+
+- Built a logistic regression credit risk model with strong predictive performance  
+- Optimized classification decisions to minimize default-related losses  
 - Segmented customers into actionable risk categories  
-- Generated output for downstream business use  
+- Generated structured output suitable for downstream business use  
 
-## Business Impact
-The insights from this project help financial institutions:
-- Reduce credit losses  
-- Apply risk-based pricing  
+---
+
+## 💼 Business Impact
+The insights from this project help financial institutions to:
+
+- Reduce credit losses due to defaults  
+- Apply risk-based pricing strategies  
 - Improve portfolio risk management  
-- Make informed lending decisions
+- Make transparent and data-driven lending decisions  
+
+---
 
 ## 👩‍💻 Author
 **Shreya Itkapalle**  
-Aspiring Data Analyst / Data Scientist  
+Aspiring Data Analyst 
